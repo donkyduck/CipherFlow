@@ -28,7 +28,7 @@ Node-red flow creator for Fully Homomorphic Encryption (FHE)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-CipherFlow is a library for creating a flow of fully homomorphic encrypted computation based on [Node-RED](https://github.com/node-red/node-red) that allows low-code programming on FHE.  
+CipherFlow is a library for creating a flow of fully homomorphic encryption function for mathematical computation based on [Node-RED](https://github.com/node-red/node-red).  
 
 <!-- Reference -->
 ## Reference
