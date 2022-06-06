@@ -41,6 +41,6 @@ CipherFlow is a library for creating a flow of fully homomorphic encryption func
     * MultiplyPlain : Multiply a ciphertext with a plaintext, ![equation](https://latex.codecogs.com/svg.image?a*c_1%20%20)
     * AddPlain : Add a plaintext to a ciphertext, ![equation](https://latex.codecogs.com/svg.image?a%20&plus;%20c_1%20%20)
     * SubPlain : Sub a plaintext to sub, ![equation](https://latex.codecogs.com/svg.image?c_1%20-%20a%20)
-    * SumElements : Sum all elements in the ciphertexts, ![equation](https://latex.codecogs.com/svg.image?%5Csum%7B%5Ctextbf%7Bc%7D%7D%20=%20%5Csum_%7Bi=1%7D%5E%7BN%7D%7Bc_i%7D)
+    * SumElements : Sum all elements in the ciphertexts, ![equation](https://latex.codecogs.com/svg.image?%5Csum%7B%5Ctextbf%7Bc%7D%7D%20=%20%5Csum_%7Bi=1%7D%5E%7BN%7D%7Bc_i%7D), where ![equation](https://latex.codecogs.com/svg.image?c_i%20%5Cin%20%5Ctextbf%7Bc%7D)
   * Modified FHE Evaluator
     * Maximum : find the maximum value between two ciphertexts, ![equation](https://latex.codecogs.com/svg.image?%5Cmax(c_1,c_2)%20=%20%5Cfrac%7Bc_1&plus;c_2%7D%7B2%7D%20&plus;%20%5Cfrac%7B%5Csqrt%7B(c_1-c_2)%5E2%7D%7D%7B2%7D)
