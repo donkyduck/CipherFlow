@@ -1,0 +1,3 @@
+[submodule "node-red-cipherflow"]
+	path = node-red-cipherflow
+	url = https://github.com/Nataset/node-red-cipherflow.git
