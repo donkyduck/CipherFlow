@@ -28,7 +28,7 @@ Node-red flow creator for Fully Homomorphic Encryption (FHE)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-CipherFlow is a library for creating a flow of fully homomorphic encryption function for mathematical computation based on [Node-RED](https://github.com/node-red/node-red).  
+CipherFlow is a visual data flow tool for creating a [Node-RED](https://github.com/node-red/node-red) flow to represent a computation function on ciphertext in the Fully Homomorphic Encryption format.  
 
 <!-- Reference -->
 ## Reference
@@ -45,3 +45,5 @@ CipherFlow is a library for creating a flow of fully homomorphic encryption func
   * Modified FHE Evaluator
     * Maximum : find the maximum value between two ciphertexts, ![equation](https://latex.codecogs.com/svg.image?%5Cmax(c_1,c_2)%20=%20%5Cfrac%7Bc_1&plus;c_2%7D%7B2%7D%20&plus;%20%5Cfrac%7B%5Csqrt%7B(c_1-c_2)%5E2%7D%7D%7B2%7D)
     * Minimum : find the minimum value between two ciphertexts, ![equation](https://latex.codecogs.com/svg.image?%5Cmin(c_1,c_2)%20=%20%5Cfrac%7Bc_1&plus;c_2%7D%7B2%7D%20-%20%5Cfrac%7B%5Csqrt%7B(c_1-c_2)%5E2%7D%7D%7B2%7D)
+    * Square root : 
+    * Divider : 
