@@ -31,10 +31,15 @@ Node-red flow creator for Fully Homomorphic Encryption (FHE)
 CipherFlow is a visual data flow tool for creating a [Node-RED](https://github.com/node-red/node-red) flow to represent a computation function on ciphertext in the Fully Homomorphic Encryption format.  
 <!-- Getting Started -->
 ## Getting Started
-The CupherFlow is a Node-RED toolkit that builds FHE cipher nodes on Node-RED platform. 
-  > nmp 
+The CipherFlow is a Node-RED toolkit that builds FHE cipher nodes on Node-RED platform.
+* Prerequisites
+  * Docker
+  * Node-RED
 
-  > docker run -u 0 -p 1900:1880 --name cipherflow3  nataset/node-red-seal:0.1.1
+* Installation
+    > nmp install
+
+    > docker run -u 0 -p 1900:1880 --name cipherflow3  nataset/node-red-seal:0.1.1
  
 
 <!-- Reference -->
