@@ -36,10 +36,12 @@ The CipherFlow is a Node-RED toolkit that builds FHE cipher nodes on Node-RED pl
   * Docker
   * Node-RED
 
-* Installation
-    > nmp install
+* Installation 
 
-    > docker run -u 0 -p 1900:1880 --name cipherflow3  nataset/node-red-seal:0.1.1
+```
+nmp install
+docker run -u 0 -p 1900:1880 --name cipherflow3  nataset/node-red-seal:0.1.1
+```
  
 
 <!-- Reference -->
