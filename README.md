@@ -29,6 +29,13 @@ Node-red flow creator for Fully Homomorphic Encryption (FHE)
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 CipherFlow is a visual data flow tool for creating a [Node-RED](https://github.com/node-red/node-red) flow to represent a computation function on ciphertext in the Fully Homomorphic Encryption format.  
+<!-- Getting Started -->
+## Getting Started
+The CupherFlow is a Node-RED toolkit that builds FHE cipher nodes on Node-RED platform. 
+  > nmp 
+
+  > docker run -u 0 -p 1900:1880 --name cipherflow3  nataset/node-red-seal:0.1.1
+ 
 
 <!-- Reference -->
 ## Reference
@@ -47,3 +54,9 @@ CipherFlow is a visual data flow tool for creating a [Node-RED](https://github.c
     * Minimum : find the minimum value between two ciphertexts, ![equation](https://latex.codecogs.com/svg.image?%5Cmin(c_1,c_2)%20=%20%5Cfrac%7Bc_1&plus;c_2%7D%7B2%7D%20-%20%5Cfrac%7B%5Csqrt%7B(c_1-c_2)%5E2%7D%7D%7B2%7D)
     * Square root : 
     * Divider : 
+* FHE schemes :
+  * [CKKS](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://eprint.iacr.org/2016/421.pdf)
+    * Allow us to compute over real number with an approximation
+    * Compress a vector of values into a message by an encoding technique. 
+  * [BGV]()
+  * [BFV]()
