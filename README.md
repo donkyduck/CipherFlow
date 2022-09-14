@@ -43,7 +43,7 @@ There are 2 options:
   npm install node-red-cipherflow
   ```
 
-  * Install in docker
+  * Install in docker (cipherflow version 0.0.10)
   ```
    docker run -it -u root --name cipherflow-0.1.10-white -p 2005:1880 nataset/node-red-cipherflow:0.1.10_arm64
   ```
@@ -59,19 +59,19 @@ The CipherFlow provides 2 types of node extension: 1) HE operation (yellow nodes
 ### CipherFlow Workspaces
 
 CipherFlow has 3 types of workspace that allow each user create his/her data flows with respect to the functionalities: 
-1. Playground: The Node-RED workspace that allows the IoT developers to construct their Node-RED CipherFlow and verify the correctness of the results from the computation over the encryption. Therefore, in this workspace, CipherFlow offers an "input" node to perform an initial input data and to encrypt this data with the chosen CKKS configuration.
+1. Playground: The Node-RED workspace allows the IoT developers to construct their Node-RED CipherFlow and verify the correctness of the results from the computation over the encryption. Therefore, in this workspace, CipherFlow offers an "input" node to perform an initial input data and to encrypt this data with the chosen CKKS configuration.
     * Chain-Index is an indicator to hint at an IoT developer the maximum number of multiplications the flow can perform.
     
 ![](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Example_playground.png)
 
 ![](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Example_Reciprocal.png)
 
-2. Edge: The Node-RED workspace that allows the IoT developers to construct the encryption flow.
+2. Edge: The Node-RED workspace allows the IoT developers to construct the encryption flow.
 
 ![](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Edge_flow.png)
 
 
-3. Cloud: The Node-RED workspace that allows the IoT developer to construct the computation flow based on the HE operations. 
+3. Cloud: The Node-RED workspace allows the IoT developer to construct the computation flow based on the HE operations. 
   * Instead of using an input node, in the cloud, the setContext is used to set the HE environment same as that of the edge. 
 ![](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Cloud_example.png)
 
