@@ -71,10 +71,9 @@ CipherFlow has 3 type of workspace that allow each user create his/her data flow
   * Modified FHE Evaluator
     * Maximum : find the maximum value between two ciphertexts, ![equation](https://latex.codecogs.com/svg.image?%5Cmax(c_1,c_2)%20=%20%5Cfrac%7Bc_1&plus;c_2%7D%7B2%7D%20&plus;%20%5Cfrac%7B%5Csqrt%7B(c_1-c_2)%5E2%7D%7D%7B2%7D)
     * Minimum : find the minimum value between two ciphertexts, ![equation](https://latex.codecogs.com/svg.image?%5Cmin(c_1,c_2)%20=%20%5Cfrac%7Bc_1&plus;c_2%7D%7B2%7D%20-%20%5Cfrac%7B%5Csqrt%7B(c_1-c_2)%5E2%7D%7D%7B2%7D)
-    * Reciprocal : find the multiplicative inverse (1/x) of ciphertext based on the modified GoldShmidth .
+    * Reciprocal : find the multiplicative inverse (1/x) of ciphertext based on the modified Goldshmidt iterative methods.
 * FHE schemes :
   * [CKKS](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://eprint.iacr.org/2016/421.pdf)
     * Allow us to compute over real number with an approximation
     * Compress a vector of values into a message by an encoding technique. 
-  * [BGV]()
-  * [BFV]()
+  
