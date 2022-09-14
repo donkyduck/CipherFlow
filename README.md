@@ -51,9 +51,10 @@ There are 2 options:
   ```
  <!-- USAGE -->
 CipherFlow has 3 types of workspace that allow each user create his/her data flows with respect to the functionalities: 
-1. Playground: The Node-RED workspace that allows the IoT developers to construct their Node-RED CipherFlow for their IoT solutions.
+1. Playground: The Node-RED workspace that allows the IoT developers to construct their Node-RED CipherFlow and verify the correctness of the results from the computation over the encryption. Therefore, in this workspace, CipherFlow offers 'input' node to perform an initial input data and encrypt this data with the chosen CKKS configuration.  
 2. Edge: The Node-RED workspace that allows the IoT developers to construct the encryption flow.
 3. Cloud: The Node-RED workspace that allows the IoT developer to construct the computation flow based on the HE operations. 
+
 
 
 <!-- Reference -->
