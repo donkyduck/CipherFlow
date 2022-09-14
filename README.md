@@ -74,7 +74,7 @@ CipherFlow has 3 types of workspace that allow each user create his/her data flo
 
 3. Cloud: The Node-RED workspace that allows the IoT developer to construct the computation flow based on the HE operations. 
   * Instead of using an input node, in the cloud, the setContext is used to set the HE environment as same as that of the edge. 
-![](../../../../var/folders/7f/bk31yp8j6kj01555pf12c8fc0000gn/T/TemporaryItems/NSIRD_screencaptureui_m6qUBD/Screen Shot 2565-09-14 at 17.54.14.png)
+![](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Cloud_example.png)
 
 <!-- Reference -->
 ## Reference
