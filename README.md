@@ -26,7 +26,7 @@ Node-red flow creator for Fully Homomorphic Encryption (FHE)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-CipherFlow is  a tool to create a visual data flow based on the Node-RED platform that allows the user to play with the data encryption and decryption based on the Fully Homomorphic Encryption (FHE).  
+CipherFlow is  a tool to create a visual data flow based on the Node-RED platform that allows the user to play with the data encryption and decryption based on the Fully Homomorphic Encryption (FHE) with the CKKS scheme.  The CipherFlow is aimed to simplify the way the IoT developers to develop their privacy preserving IoT solutions without hard-code program. The IoT developers just drag and drop the FHE nodes on the Node-RED workspace and wire the relevant nodes to complete the flow. 
 <!-- Getting Started -->
 ## Getting Started
 The CipherFlow is a Node-RED toolkit that builds FHE cipher nodes on Node-RED platform.
