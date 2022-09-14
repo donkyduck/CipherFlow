@@ -54,7 +54,7 @@ There are 2 options:
 ### CipherFlow Node Extension
 
 The CipherFlow provides 2 types of node extension: 1) HE operation (yellow nodes) and 2) Arithmetic operation (blue nodes). <br/>
-![](../../../../var/folders/7f/bk31yp8j6kj01555pf12c8fc0000gn/T/TemporaryItems/NSIRD_screencaptureui_3nMwSk/Screen Shot 2565-09-14 at 17.17.38.png)
+![](https://github.com/donkyduck/CipherFlow/blob/main/Figure/NodeExtension.png)
 
 ### CipherFlow Workspaces
 
