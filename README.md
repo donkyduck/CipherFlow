@@ -50,7 +50,7 @@ There are 2 options:
    docker run -it -u root --name cipherflow-0.1.10-white -p 2005:1880 nataset/node-red-cipherflow:0.1.10_arm64
   ```
  <!-- USAGE -->
-CipherFlow has 3 type of workspace that allow each user create his/her data flows with respect to the functionalities: 
+CipherFlow has 3 types of workspace that allow each user create his/her data flows with respect to the functionalities: 
 1. Playground: The Node-RED workspace that allows the IoT developers to construct their Node-RED CipherFlow for their IoT solutions.
 2. Edge: The Node-RED workspace that allows the IoT developers to construct the encryption flow.
 3. Cloud: The Node-RED workspace that allows the IoT developer to construct the computation flow based on the HE operations. 
@@ -68,12 +68,10 @@ CipherFlow has 3 type of workspace that allow each user create his/her data flow
     * AddPlain : Add a plaintext to a ciphertext, ![equation](https://latex.codecogs.com/svg.image?a%20&plus;%20c_1%20%20)
     * SubPlain : Sub a plaintext to sub, ![equation](https://latex.codecogs.com/svg.image?c_1%20-%20a%20)
     * SumElements : Sum all elements in the ciphertexts, ![equation](https://latex.codecogs.com/svg.image?%5Csum%7B%5Ctextbf%7Bc%7D%7D%20=%20%5Csum_%7Bi=1%7D%5E%7BN%7D%7Bc_i%7D), where ![equation](https://latex.codecogs.com/svg.image?c_i%20%5Cin%20%5Ctextbf%7Bc%7D)
-  * Modified FHE Evaluator
-    * Maximum : find the maximum value between two ciphertexts, ![equation](https://latex.codecogs.com/svg.image?%5Cmax(c_1,c_2)%20=%20%5Cfrac%7Bc_1&plus;c_2%7D%7B2%7D%20&plus;%20%5Cfrac%7B%5Csqrt%7B(c_1-c_2)%5E2%7D%7D%7B2%7D)
-    * Minimum : find the minimum value between two ciphertexts, ![equation](https://latex.codecogs.com/svg.image?%5Cmin(c_1,c_2)%20=%20%5Cfrac%7Bc_1&plus;c_2%7D%7B2%7D%20-%20%5Cfrac%7B%5Csqrt%7B(c_1-c_2)%5E2%7D%7D%7B2%7D)
+  * CipherFlow extension for FHE Evaluator
     * Reciprocal : find the multiplicative inverse (1/x) of ciphertext based on the modified Goldshmidt iterative methods.
 * FHE schemes :
   * [CKKS](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://eprint.iacr.org/2016/421.pdf)
-    * Allow us to compute over real number with an approximation
+    * Allow us to compute over real numbers with approximation
     * Compress a vector of values into a message by an encoding technique. 
   
