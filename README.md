@@ -61,11 +61,8 @@ The CipherFlow provides 2 types of node extension: 1) HE operation (yellow nodes
 CipherFlow has 3 types of workspace that allow each user create his/her data flows with respect to the functionalities: 
 1. Playground: The Node-RED workspace that allows the IoT developers to construct their Node-RED CipherFlow and verify the correctness of the results from the computation over the encryption. Therefore, in this workspace, CipherFlow offers an "input" node to perform an initial input data and to encrypt this data with the chosen CKKS configuration.
     * Chain-Index is an indicator to hint at an IoT developer the maximum number of multiplications the flow can perform.
-
-![](../../../../var/folders/7f/bk31yp8j6kj01555pf12c8fc0000gn/T/TemporaryItems/NSIRD_screencaptureui_pI3KK7/Screen Shot 2565-09-14 at 17.24.53.png)
-
-
-![](../../../../var/folders/7f/bk31yp8j6kj01555pf12c8fc0000gn/T/TemporaryItems/NSIRD_screencaptureui_6x3e2U/Screen Shot 2565-09-14 at 17.39.38.png)
+    
+![](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Example_playground.png)
 
 ![](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Example_Reciprocal.png)
 
