@@ -47,12 +47,16 @@ There are 2 options:
   ```
    docker run -it -u root --name cipherflow-0.1.10-white -p 2005:1880 nataset/node-red-cipherflow:0.1.10_arm64
   ```
- <!-- USAGE -->
+
+<!-- USAGE -->
+## Usage
 CipherFlow has 3 types of workspace that allow each user create his/her data flows with respect to the functionalities: 
 1. Playground: The Node-RED workspace that allows the IoT developers to construct their Node-RED CipherFlow and verify the correctness of the results from the computation over the encryption. Therefore, in this workspace, CipherFlow offers 'input' node to perform an initial input data and encrypt this data with the chosen CKKS configuration.  
 2. Edge: The Node-RED workspace that allows the IoT developers to construct the encryption flow.
 3. Cloud: The Node-RED workspace that allows the IoT developer to construct the computation flow based on the HE operations. 
-
+![](../../../../var/folders/7f/bk31yp8j6kj01555pf12c8fc0000gn/T/TemporaryItems/NSIRD_screencaptureui_6SMohP/Screen Shot 2565-09-14 at 17.15.53.png)
+###CipherFlow Node Extension
+The CipherFlow provides 2 types of node extension: 1) HE operation and 2) Arithmetic operation.
 
 
 <!-- Reference -->
