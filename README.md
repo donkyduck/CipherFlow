@@ -47,13 +47,13 @@ There are 2 options:
 
   * Install in docker
   ```
-   docker run -d -u root -it -p 1900:1880 --name cipherflow nataset/node-red-cipherflow
+   docker run -it -u root --name cipherflow-0.1.10-white -p 2005:1880 nataset/node-red-cipherflow:0.1.10_arm64
   ```
  <!-- USAGE -->
-CipherFlow has 3 main pages that allow each user create his/her data flows with respect to the user's role, i.e., owner, expert, and system integrator. 
-1. Owner : 
-2. Expert :
-3. System integrator (SI) :  The role of SI is to create the flow for the edge computing that runs the encryption. 
+CipherFlow has 3 type of workspace that allow each user create his/her data flows with respect to the functionalities: 
+1. Playground: The Node-RED workspace that allows the IoT developers to construct their Node-RED CipherFlow for their IoT solutions.
+2. Edge: The Node-RED workspace that allows the IoT developers to construct the encryption flow.
+3. Cloud: The Node-RED workspace that allows the IoT developer to construct the computation flow based on the HE operations. 
 
 
 <!-- Reference -->
@@ -71,8 +71,7 @@ CipherFlow has 3 main pages that allow each user create his/her data flows with 
   * Modified FHE Evaluator
     * Maximum : find the maximum value between two ciphertexts, ![equation](https://latex.codecogs.com/svg.image?%5Cmax(c_1,c_2)%20=%20%5Cfrac%7Bc_1&plus;c_2%7D%7B2%7D%20&plus;%20%5Cfrac%7B%5Csqrt%7B(c_1-c_2)%5E2%7D%7D%7B2%7D)
     * Minimum : find the minimum value between two ciphertexts, ![equation](https://latex.codecogs.com/svg.image?%5Cmin(c_1,c_2)%20=%20%5Cfrac%7Bc_1&plus;c_2%7D%7B2%7D%20-%20%5Cfrac%7B%5Csqrt%7B(c_1-c_2)%5E2%7D%7D%7B2%7D)
-    * Square root : 
-    * Divider : 
+    * Reciprocal : find the multiplicative inverse (1/x) of ciphertext based on the modified GoldShmidth .
 * FHE schemes :
   * [CKKS](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://eprint.iacr.org/2016/421.pdf)
     * Allow us to compute over real number with an approximation
