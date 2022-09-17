@@ -43,9 +43,9 @@ There are 2 options:
   npm install node-red-cipherflow
   ```
 
-  * Install in docker (cipherflow version 0.0.10)
+  * Install in docker (cipherflow version 0.2)
   ```
-   docker run -it -u root --name cipherflow-0.1.10-white -p 2005:1880 nataset/node-red-cipherflow:0.1.10_arm64
+  docker run -it -u root --name cipherflow-0.2.0 -p 2000:1880 nataset/node-red-cipherflow:0.2.0_arm64
   ```
 
 <!-- USAGE -->
