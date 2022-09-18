@@ -53,7 +53,7 @@ There are 2 options:
 
 ### CipherFlow Node Extension
 
-The CipherFlow provides 3 types of node extension: 1) HE operation (yellow nodes), 2) Arithmetic operation (blue nodes), and 3). Object/base64 converters (Green) <br/>
+The CipherFlow provides 3 types of node extension: 1) HE operation (yellow nodes), 2) Arithmetic operation (blue nodes), and 3) Object/base64 converters (green). <br/>
 ![](https://github.com/donkyduck/CipherFlow/blob/main/Figure/NodeExtension.png)
 
 ### CipherFlow Workspaces
