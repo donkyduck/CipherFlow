@@ -77,7 +77,7 @@ CipherFlow has 3 types of workspace that allow each user create his/her data flo
 ### CipherFlow Node Configuration
   There are a few things the developers need to learn how to configure the HE nodes of Cipherflow node extension.
 * Input node <br/>
-** First we have to configure the context parameters as shown in the figure. 
+   - First we have to configure the context parameters as shown in the figure. 
 ![SetContext](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Set_Context_for_Input_node.png)
 <!-- Reference -->
 ## Reference
