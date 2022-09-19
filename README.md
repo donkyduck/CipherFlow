@@ -77,8 +77,10 @@ CipherFlow has 3 types of workspace that allow each user create his/her data flo
 ### CipherFlow Node Configuration
   There are a few things the developers need to learn how to configure the HE nodes of Cipherflow node extension.
 * Input node <br/>
-   - First we have to configure the context parameters as shown in the figure. 
+   - First we have to configure the context parameters as shown in the figure. We provide 3 default options: Large \[default\], Medium \[default\], and Small \[default\].
 ![SetContext](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Set_Context_for_Input_node.png)
+   - We can use the default setting or create a new one. 
+![SetContext](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Add_new_context.png)
 <!-- Reference -->
 ## Reference
 * FHE library based on [node-SEAL](https://docs.morfix.io/) 
