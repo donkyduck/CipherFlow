@@ -81,6 +81,8 @@ CipherFlow has 3 types of workspace that allow each user create his/her data flo
 ![SetContext](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Set_Context_for_Input_node.png)
    - We can use the default setting or create a new one. 
 ![SetContext](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Add_new_context.png)
+   - Then, we generate a new key pair associated with the new context.
+![SetContext](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Generate_new_key_pair.png)
 <!-- Reference -->
 ## Reference
 * FHE library based on [node-SEAL](https://docs.morfix.io/) 
