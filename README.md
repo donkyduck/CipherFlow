@@ -83,6 +83,9 @@ CipherFlow has 3 types of workspace that allow each user create his/her data flo
 ![SetContext](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Add_new_context.png)
    - Then, we generate a new key pair associated with the new context.
 ![SetContext](https://github.com/donkyduck/CipherFlow/blob/main/Figure/Generate_new_key_pair.png)
+<!-- Demo -->
+* Introduction to Node-RED CipherFlow
+[How to install Node-RED in Docker and Node-RED CipherFlow from the pallet](https://youtu.be/x1FWtNuBPlc)
 <!-- Reference -->
 ## Reference
 * FHE library based on [node-SEAL](https://docs.morfix.io/) 
